@@ -1,0 +1,29 @@
+@media screen and (max-width: 767px) {
+    h1.page-title {
+        padding: 0 15px;
+    }
+    
+    .btn-master-2 .vc_column-inner>.wpb_wrapper img {
+        transform: scale(1.1);
+    }
+	
+}
+
+
+@media screen and (min-width: 1130px) {
+    
+    .btn-master-2.full-width {
+        width: 1000px;
+   		height: 300px;
+    }
+	
+}
+
+@media screen and (max-width: 1129px) {
+    
+    .btn-master-2.full-width img {
+        height: 300px;
+		max-width: 600px;
+    }
+	
+}

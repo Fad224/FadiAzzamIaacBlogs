@@ -1,0 +1,65 @@
+/* POSTS GRID */
+
+.um-header.no-cover {
+    /*display: flex;*/
+}
+
+
+/* Ocultar Edit Profile Option */
+.um-profile-edit .um-dropdown-b ul li:first-child {
+    /*display: none;*/
+}
+
+.um-profile.um .um-profile-headericon a:hover, .um-profile.um .um-profile-edit-a.active {
+    color: var(--accent) !important;
+}
+
+.um-profile .um-profile-body {
+    max-width: unset !important;
+}
+
+.mad_profile .um-header.no-cover .um-profile-photo {
+    float: left !important;
+    margin: 0 15px !important;
+    
+}
+
+.mad_profile .um-header.no-cover .um-profile-meta {
+    float: left !important;
+    text-align: left !important;
+    margin-top: 40px;
+    margin-left: 15px;
+    
+}
+
+.author-info {
+    font-weight: 500;
+    color: var(--contrast-4);
+}
+
+.author-info .author-email {
+    display: block;
+    margin-bottom: 10px !important;
+}
+
+.um input[type=submit].um-button, .um a.um-button.um {
+    background: var(--contrast) !important;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+    
+}
+
+.um .um-button.um-alt, .um input[type=submit].um-button.um-alt {
+    background: #fff !important;
+    border: 1px solid var(--contrast) !important;
+    -webkit-box-shadow: unset !important;
+    box-shadow: unset !important;
+}
+
+
+.um input[type=submit].um-button:focus, .um a.um-button.um:focus, .um input[type=submit].um-button:hover, .um a.um-button.um:hover, .um .um-button.um-alt:focus, .um input[type=submit].um-button.um-alt:focus, .um .um-button.um-alt:hover, .um input[type=submit].um-button.um-alt:hover {
+    -webkit-box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%) !important;
+    box-shadow: 0 4px 6px rgb(50 50 93 / 11%), 0 1px 3px rgb(0 0 0 / 8%) !important;
+}
+
+ 

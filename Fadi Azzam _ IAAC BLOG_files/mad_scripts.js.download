@@ -1,0 +1,28 @@
+jQuery(document).ready(function() {
+
+       
+// 		jQuery('#cat').change(function(){
+// 		  var value = jQuery(this).val();
+// 			location.href = "https://blog.iaac.net/syllabi/?programme=" + value;
+			
+		
+// 		});
+ 
+  
+});
+
+
+
+
+
+
+/* FUNCIONES */
+
+// function toggleList(){
+//   jQuery('#menu-programmes').toggleClass('dropdown-visible');
+//   jQuery('html').click(function(){
+//     jQuery('#menu-programmes').removeClass('dropdown-visible');
+//   });
+// }
+
+

@@ -1,0 +1,96 @@
+
+
+.search-header {
+    /*margin-top: -35px;*/
+    padding: 30px 15px;
+    text-align: center;
+}
+
+.search-header h4 {
+    text-transform: Capitalize ;
+}
+
+.search-result-item {
+  padding: 15px;
+  margin-bottom: 30px !important;
+}
+
+.search-result-item figure {
+    aspect-ratio: 1/1;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+
+.search-result-item h5 a {
+  color: var(--contrast) !important;
+  margin-left: 10px;
+  text-decoration: none;
+} 
+
+.search-result-item h5 a:hover {
+  text-decoration: underline;
+}
+
+.search-result-item h5:before {
+    content: "\203A";
+    font-size: 1.2em;
+    padding-left: 15px;
+}
+
+.search-result-item a.read-more {
+  display: none !important; 
+}
+
+.search-result-item a.post-entry-read-more {
+  color: var(--contrast);
+  font-weight: 500;
+  float: right;
+  text-decoration: none;
+  margin-top:10px;
+}
+
+.search-result-item a.post-entry-read-more:hover {
+  color: var(--accent);
+}
+
+
+.result-post-entry-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.result-post-entry-content .wpb_column {
+    -webkit-box-align: stretch;
+    align-items: stretch;
+}
+
+
+/** NAV-Links **/ 
+
+.nav-links {
+    text-align: center;
+    font-size: 16px;
+}
+
+.nav-links .page-numbers {
+    color: var(--contrast-2);
+    padding: 0px !important;
+}
+
+.nav-links .page-numbers:not(.next):after {
+    content: "/";
+    padding-left: 5px;
+    font-weight: 300 !important;
+}
+
+.nav-links .page-numbers:nth-last-child(-n+2):after {
+    content: "";
+}
+
+
+.nav-links .next.page-numbers {
+    /*font-size: 22px;*/
+    /*letter-spacing: 10px;*/
+}
